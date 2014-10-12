@@ -13,12 +13,22 @@
  *= require_tree .
  *= require_self
  */
-body { padding-top: 100px; }
+body { background-color:#D8A3D6;padding-top: 100px; }
+h1 {
+  font-size:100px;
+  text-align:center;
+}
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
 
 
 .moldura {
-  border:#FFAAFF 10px inset;
+  border:#080108 10px inset;
+  margin-bottom:100px;
+}
+
+.nome{
+  text-align:right;
+  font-size:20px;
 }
